@@ -1,3 +1,8 @@
+REACT
+
+Сделать поисковую строку. Которая бы показывала предварительные результаты поиска, при вводе текста c debounce 0.5сек
+Для данных можно использовать любой сервер тестовых данных, например, https://jsonplaceholder.org/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
