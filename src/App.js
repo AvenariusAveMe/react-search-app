@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import SearchBar from './SearchBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ textAlign: 'center' }}>🔍 Поиск постов</h1>
+      <p style={{ textAlign: 'center', color: '#845' }}>
+        Введите текст для поиска. Результаты появятся через 0.5 секунды
+      </p>
+      <SearchBar />
     </div>
   );
 }
